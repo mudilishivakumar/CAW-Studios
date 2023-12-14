@@ -1,6 +1,6 @@
 import herokuappPageObjects from "../../pages/herokuappPageObjects.cy.js";
 const app=new herokuappPageObjects();
-it("Should login to inventory page", () =>{
+it("Should herokuapp to dynamic-table page", () =>{
 
     app.url();
     app.tableData().click()
